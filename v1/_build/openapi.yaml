@@ -1,9 +1,9 @@
 openapi: 3.0.0
 info:
-  title:  API que crea los accesos de los dispositivos moviles
+  title:  API que crea los accesos de los dispositivos móviles
   description: |
-    API de Sistema que expone la version 1.0 de los servicios: 
-    1. Creacion de un dispositivo movil nuevo ligado al proveedor directo.
+    API de Sistema que expone la versión 1.0 de los servicios: 
+    1. Creación de un dispositivo móvil nuevo ligado al proveedor directo.
 
     El servicio cumple con lo siguiente:
     - **Protocolo**: *HTTPS*
