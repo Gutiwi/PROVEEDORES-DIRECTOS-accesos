@@ -1,0 +1,3 @@
+apis:
+  v1/_build/openapi.yaml:
+    alias: api-que-crea-los-accesos-de-los-

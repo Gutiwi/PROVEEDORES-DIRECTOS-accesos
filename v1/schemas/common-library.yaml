@@ -1,0 +1,66 @@
+# *************************************
+## Definir todos los objetos comunes ##
+# *************************************
+FeaturesProcessingTO:
+  type: object
+  required:
+    - code  
+    - message
+  properties:
+    code:
+      type: string
+      description: Código de Error de la operación.
+      minLength: 7
+      maxLength: 7
+      pattern: '^[XPS0-9]*$'
+      nullable: false
+    message:
+      type: string
+      description: Descripción de la operación.
+      minLength: 1
+      maxLength: 100
+      pattern: '^[ -00-9a-zA-Z\u00C0-\u017F]*$'
+      nullable: false         
+
+
+
+ErrorTO:
+  type: object
+  required:
+    - code  
+    - message
+  properties:
+    code:
+      type: string
+      description: Código de Error de la operación.
+      minLength: 7
+      maxLength: 7
+      pattern: '^[XPS0-9]*$'
+      nullable: false
+    message:
+      type: string
+      description: Descripción de la operación.
+      minLength: 1
+      maxLength: 100
+      pattern: '^[ -00-9a-zA-Z\u00C0-\u017F]*$'
+      nullable: false
+ErrorNativeTO:
+  type: object
+  required:
+    - code  
+    - message
+  properties:
+    code:
+      type: string
+      description: Código de Error de la operación.
+      minLength: 7
+      maxLength: 7
+      pattern: '^[XPS0-9]*$'
+      nullable: false
+    message:
+      type: string
+      description: Descripción de la operación.
+      minLength: 1
+      maxLength: 100
+      pattern: '^[ -00-9a-zA-Z\u00C0-\u017F]*$'
+      nullable: false
